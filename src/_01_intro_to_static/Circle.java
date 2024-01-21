@@ -5,15 +5,17 @@ import java.awt.Graphics;
 import java.util.Random;
 
 public class Circle {
-    int x, y;
+    static int x, y;
 
     /*
      * Add/remove the word "static" at the beginning of these variables
      */
-    int radius;
-    Color color;
-
+   static  int radius;
+    static Color color;
+    
     public Circle(int r, Color c) {
+    	System.out.println("circle color = " + Circle.color);
+    	System.out.println("circle color = " + Circle.color);
         radius = r;
         color = c;
 
