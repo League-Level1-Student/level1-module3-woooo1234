@@ -17,13 +17,14 @@ import game_tools.Sound;
  *    9
  *    8
  *    ...
- * 
+ * 	
  * 3. After the timer is finished, use the playSound() method to play a moo
  *    sound. You can use "moo.wav" as the sound file.
  * 
  * In the CowTimerRunner class:
  * Complete the main method
  */
+
 public class CowTimer {
     private int seconds;
 
@@ -31,7 +32,7 @@ public class CowTimer {
         this.seconds = seconds;
         System.out.println("Cow time set to " + this.seconds + " seconds.");
     }
-
+    
     public void start() throws InterruptedException {
         
     }

@@ -7,6 +7,7 @@ public class SmileyBlues {
 	void start() {
 		// 1. Make a new JFrame and set it to be visible
 		JFrame frame =  new JFrame() ;
+		
 		frame.setVisible(true);
 		// 2. Set your frame's default close operation to JFrame.EXIT_ON_CLOSE
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -20,10 +21,13 @@ public class SmileyBlues {
 		// Run it again; are your Smileys all yellow now? Also try changing them to red or green!
 
 		// 5. Make three Smiley objects and add them to your panel
-		int  smiley;
-		int smiley2;
-		int smiley3;
+		Smiley s1 = new Smiley();
+		panel.add(s1);
 		
+		Smiley s2 = new Smiley();
+		panel.add(s2);
+		Smiley s3 = new Smiley();
+		panel.add(s3);
 		// 6. Pack your frame
 frame.pack();
 		// 7. RUN THE PROGRAM and make sure you see three blue Smileys!
